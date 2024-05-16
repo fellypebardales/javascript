@@ -3,8 +3,8 @@ var insiraNumero = prompt("Agora, insira um número:");
 var insiraOutroNumero = prompt("Agora, insira outro número:");
 var soma = parseInt(insiraNumero) + parseInt(insiraOutroNumero);
 
-if (nome == "") {
-  alert("Você precisa informar seu nome!");
+if (nome == "" || insiraNumero == "" || insiraOutroNumero == "") {
+  alert("Você deixou um campo em branco!");
 } else {
   resultado = nome + ", a soma dos números informados é: " + soma;
   alert(resultado);
